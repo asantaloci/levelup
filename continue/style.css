@@ -1,0 +1,111 @@
+   /* CONTINUE */
+body {
+  background-color: black;
+  padding: 25px;
+
+}
+
+.inverse {
+  mix-blend-mode: difference;
+  /* color:#fff; */
+  color:rgba(255,255,255,0.6);
+}
+
+.arrow-right {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+	width: 0;
+	height: 0;
+	border-bottom: 15px solid transparent;  /* left arrow slant */
+	border-top: 15px solid transparent; /* right arrow slant */
+	border-left: 15px solid red; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+    transition: 0.3s;
+
+}
+
+.arrow-right:hover {
+  border-left: 15px solid white;
+
+}
+
+.next{
+  margin-left: auto;
+  margin-right: auto;
+  width: 0em;
+
+}
+
+ .color {
+  font-style: italic;
+  color: yellow;
+
+}
+
+.story p {
+  align-content: center;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  color: white;
+  margin: 20px;
+
+}
+
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  height:auto;
+  margin-bottom: 50px;
+  transition: 3s ease-in;
+
+}
+
+.restaurantmenu h1 {
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-size: 50px;
+  border-top: 8px solid red;
+  border-bottom: 8px dashed red;
+  background-color: white;
+  color: red;
+  padding: 40px;
+
+}
+
+.restaurantmenu p {
+  font-family: "Hoefler Text";
+  font-size: 30px;
+  font-style: italic;
+  margin-top: -10px;
+  background-color: white;
+  color: red;
+  padding: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+
+}
+
+.heroimage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height:auto;
+  margin-bottom: 50px;
+  transition: 2s ease-in;
+
+}
+@media screen and (min-width: 800px) {
+  .heroimage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height:auto;
+    margin-bottom: 50px;
+
+  }
+
+}
